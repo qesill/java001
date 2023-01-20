@@ -26,7 +26,7 @@ public class CodeBlock {
                 {
                     System.out.println("test: " + test);
                     System.out.println("value: " + value);
-                    System.out.println("a: " + a);
+                    System.out.println("a: " + a); // 99
                 }
             }
         }
