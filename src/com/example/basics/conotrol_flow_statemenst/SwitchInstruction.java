@@ -1,6 +1,9 @@
 package com.example.basics.conotrol_flow_statemenst;
 
+import java.sql.SQLOutput;
+
 public class SwitchInstruction {
+    enum CarVariant {SEDAN, COMBI, SPORT}
     public static void main(String[] args) {
 
         int num = 10;
@@ -23,13 +26,26 @@ public class SwitchInstruction {
                 System.out.println("Default: " + num);
         }
 
-        String str = "Ania";
+        String str = "Ola2";
         switch (str) {
             case "Ola":
                 System.out.println("Ola");
                 break;
             case "Ania":
-                System.out.println();
+                System.out.println("Ania");
+            default:
+                System.out.println("Default: " +str);
+
+        }
+        CarVariant car = CarVariant.COMBI;
+        switch (car) {
+            case COMBI:
+                System.out.println(CarVariant.COMBI);
+                break;
+            case SEDAN:
+                System.out.println(CarVariant.SEDAN);
+            default:
+                    System.out.println("Default: " +car);
         }
     }
 }
