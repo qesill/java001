@@ -4,6 +4,6 @@ import com.example.oop.basics.acces_modifiers.no_modifier.package1.Product;
 
 public class Computer extends Product {
     public Computer(){
-        name = "Computer";
+        //name = "Computer"; // spowoduje błąd , brak dostępu do zmiennej z innego pakietu, gdy nie ma modyfikatora dostępu
     }
 }
