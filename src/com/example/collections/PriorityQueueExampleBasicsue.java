@@ -2,7 +2,7 @@ package com.example.collections;
 
 import java.util.PriorityQueue;
 
-public class PriorityQueExampleBasicsue {
+public class PriorityQueueExampleBasicsue {
     public static void main(String[] args) {
 
         PriorityQueue<Integer> test = new PriorityQueue<>();
