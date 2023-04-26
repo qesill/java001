@@ -44,7 +44,7 @@ class MathClass implements MathInterface {
 public class DefaultMethodsInterface {
     public static void main(String[] args) {
 
-        MathInterface math = (int a, int b) -> a*b;
+        MathInterface math = (a, b) -> a * b;
 
         System.out.println(math.operate(10, 30)); //300
 
